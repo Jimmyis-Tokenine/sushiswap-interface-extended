@@ -102,6 +102,25 @@ export const SUPPORTED_NETWORKS: Record<
     rpcUrls: ['https://bsc-dataseed.binance.org'],
     blockExplorerUrls: ['https://bscscan.com'],
   },
+  [ChainId.BSC_TESTNET]: {
+    chainId: '0x61',
+    chainName: 'Binance Smart Chain (Testnet)',
+    nativeCurrency: {
+      name: 'Binance Coin',
+      symbol: 'BNB',
+      decimals: 18,
+    },
+    rpcUrls: [
+      'https://data-seed-prebsc-1-s1.binance.org:8545',
+      'https://data-seed-prebsc-1-s2.binance.org:8545',
+      'https://data-seed-prebsc-1-s3.binance.org:8545',
+      'https://data-seed-prebsc-2-s1.binance.org:8545',
+      'https://data-seed-prebsc-2-s2.binance.org:8545',
+      'https://data-seed-prebsc-2-s3.binance.org:8545',
+      'https://bsctestapi.terminet.io/rpc',
+    ],
+    blockExplorerUrls: ['https://testnet.bscscan.com'],
+  },
   [ChainId.MATIC]: {
     chainId: '0x89',
     chainName: 'Matic',
