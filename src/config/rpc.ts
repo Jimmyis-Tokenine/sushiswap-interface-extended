@@ -34,6 +34,7 @@ const RPC = {
   [ChainId.OPTIMISM]: 'https://mainnet.optimism.io',
   [ChainId.KAVA]: 'https://evm.kava.io',
   [ChainId.METIS]: 'https://andromeda.metis.io/?owner=1088',
+  [ChainId.JFIN_TESTNET]: 'https://rpc.testnet.jfinchain.com',
 }
 
 export default RPC
