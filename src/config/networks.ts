@@ -1,4 +1,8 @@
-import { ChainId } from '@sushiswap/core-sdk'
+import { ChainId as ChainId_Original } from '@sushiswap/core-sdk'
+
+export const ChainId: { [key: string | number]: number } = {
+  ...ChainId_Original,
+}
 
 const Arbitrum = 'https://raw.githubusercontent.com/sushiswap/icons/master/network/arbitrum.jpg'
 const Avalanche = 'https://raw.githubusercontent.com/sushiswap/icons/master/network/avalanche.jpg'
