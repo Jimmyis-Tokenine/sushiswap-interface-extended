@@ -1,4 +1,6 @@
-import { ChainId, Currency, WNATIVE } from '@sushiswap/core-sdk'
+import { Currency } from '@sushiswap/core-sdk'
+import { ChainId } from 'app/config/networks'
+import { WNATIVE } from 'app/config/token'
 import useHttpLocations from 'app/hooks/useHttpLocations'
 import { WrappedTokenInfo } from 'app/state/lists/wrappedTokenInfo'
 import React, { FunctionComponent, useMemo } from 'react'
@@ -26,6 +28,7 @@ const BLOCKCHAIN = {
   [ChainId.KAVA]: 'kava',
   [ChainId.METIS]: 'metis',
   [ChainId.HARDHAT]: 'hardhat',
+  [ChainId.JFIN_TESTNET]: 'jfinchain-testnet',
 }
 
 // @ts-ignore TYPE NEEDS FIXING
@@ -80,8 +83,9 @@ const FuseLogo = 'https://raw.githubusercontent.com/sushiswap/logos/main/token/f
 const TelosLogo = 'https://raw.githubusercontent.com/sushiswap/logos/main/token/telos.jpg'
 const KavaLogo = 'https://raw.githubusercontent.com/sushiswap/icons/master/token/kava.svg'
 const MetisLogo = 'https://raw.githubusercontent.com/sushiswap/icons/master/network/metis.svg'
+const JFIN_TESTNET = 'https://raw.githubusercontent.com/sushiswap/icons/master/network/metis.svg'
 
-const LOGO: Record<ChainId, string> = {
+const LOGO: Record<string | number, string> = {
   [ChainId.ETHEREUM]: EthereumLogo,
   [ChainId.KOVAN]: EthereumLogo,
   [ChainId.RINKEBY]: EthereumLogo,
@@ -116,6 +120,7 @@ const LOGO: Record<ChainId, string> = {
   [ChainId.OPTIMISM]: EthereumLogo,
   [ChainId.KAVA]: KavaLogo,
   [ChainId.METIS]: MetisLogo,
+  [ChainId.JFIN_TESTNET]: JFIN_TESTNET,
 }
 
 export interface CurrencyLogoProps {
