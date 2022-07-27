@@ -9,11 +9,11 @@ import {
   DAI_ADDRESS,
   FRAX_ADDRESS,
   MIM_ADDRESS,
-  NATIVE,
   SUSHI_ADDRESS,
   USDC_ADDRESS,
   USDT_ADDRESS,
 } from 'app/config/address'
+import { NATIVE } from 'app/config/native-currency'
 import { useToken } from 'app/hooks/Tokens'
 import { useActiveWeb3React } from 'app/services/web3'
 import React, { FC } from 'react'
