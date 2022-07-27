@@ -35,22 +35,27 @@ import { ChainId } from 'config/networks'
 
 export const SUSHI_ADDRESS: AddressMap = {
   ...SUSHI_ADDRESS_ORIGINAL,
+  [ChainId.JFIN_TESTNET] : '0xeed817CA68016F07fEd2Ae8bbd34ea2C6970C3A8',
 }
 
 export const USDC_ADDRESS: AddressMap = {
   ...USDC_ADDRESS_ORIGINAL,
+  [ChainId.JFIN_TESTNET]: '0x1003b56F9AC197A780037FA54c287144067bB43D',
 }
 
 export const USD_ADDRESS: AddressMap = {
   ...USD_ADDRESS_ORIGINAL,
+  [ChainId.JFIN_TESTNET]: '0x1003b56F9AC197A780037FA54c287144067bB43D',
 }
 
 export const WETH9_ADDRESS: AddressMap = {
   ...WETH9_ADDRESS_ORIGINAL,
+  [ChainId.JFIN_TESTNET]: '0x474d6eA19D04597405b64BCb92154ffd90993E66',
 }
 
 export const WNATIVE_ADDRESS: AddressMap = {
   ...WNATIVE_ADDRESS_ORIGINAL,
+  [ChainId.JFIN_TESTNET]: '0x474d6eA19D04597405b64BCb92154ffd90993E66',
 }
 
 export const DAI_ADDRESS: AddressMap = {
@@ -71,23 +76,28 @@ export const FRAX_ADDRESS: AddressMap = {
 
 export const FACTORY_ADDRESS: AddressMap = {
   ...FACTORY_ADDRESS_ORIGINAL,
+  [ChainId.JFIN_TESTNET]: '0xc526ADA085b30bB88D6ddAF1BDbca30F3ed5bEDc',
 }
 
 export const ROUTER_ADDRESS: AddressMap = {
   ...ROUTER_ADDRESS_ORIGINAL,
+  [ChainId.JFIN_TESTNET]: '0xCC8AfE6E2812F5135515d3E07eFA5112Bf0EB185',
 }
 
 export const MASTERCHEF_ADDRESS: AddressMap = {
   ...MASTERCHEF_ADDRESS_ORIGINAL,
+  [ChainId.JFIN_TESTNET]: '0x15b8379AF7454481Cc5Cb8B7a25948E25ba61797',
 }
 
 
 export const BAR_ADDRESS: AddressMap = {
   ...BAR_ADDRESS_ORIGINAL,
+  [ChainId.JFIN_TESTNET]: '0x1a50D07d990Db8877E8e1ca22F13D1bCeF7903d5',
 }
 
 export const MAKER_ADDRESS: AddressMap = {
   ...MAKER_ADDRESS_ORIGINAL,
+  [ChainId.JFIN_TESTNET]: '0xc83379d05eCeb3F0A348b802CaCFC6c4c2f6C4A9',
 }
 
 export const TIMELOCK_ADDRESS: AddressMap = {
@@ -96,6 +106,7 @@ export const TIMELOCK_ADDRESS: AddressMap = {
 
 export const BENTOBOX_ADDRESS: AddressMap = {
   ...BENTOBOX_ADDRESS_ORIGINAL,
+  [ChainId.JFIN_TESTNET]: '0xcc229aAbf05dBe6b0e4C862c25308322e89F9a6A',
 }
 
 export const KASHI_ADDRESS: AddressMap = {
@@ -130,6 +141,7 @@ export const BORING_HELPER_ADDRESS: AddressMap = {
 
 export const MINICHEF_ADDRESS: AddressMap = {
   ...MINICHEF_ADDRESS_ORIGINAL,
+  [ChainId.JFIN_TESTNET]: '0xa33a4CE834A825Ee8c0f0dA9370F518aB890Fb1f',
 }
 
 export const MASTERCHEF_V2_ADDRESS: AddressMap = {
@@ -150,6 +162,7 @@ export const MERKLE_DISTRIBUTOR_ADDRESS: AddressMap = {
 
 export const MULTICALL2_ADDRESS: AddressMap = {
   ...MULTICALL2_ADDRESS_ORIGINAL,
+  [ChainId.JFIN_TESTNET]: '0xeb3273fcfabc607fa504ac5a6d77b78908c9244e',
 }
 
 export const BALANCE_FETCHER_ADDRESS: AddressMap = {
