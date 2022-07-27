@@ -1,5 +1,6 @@
 // a list of tokens by chain
-import { ChainId, SUSHI, Token, WNATIVE } from '@sushiswap/core-sdk'
+import { SUSHI, Token, WNATIVE } from '@sushiswap/core-sdk'
+import { ChainId } from 'app/config/networks'
 
 import * as ARBITRUM from './tokens/arbitrum'
 import * as AVALANCHE from './tokens/avalanche'
