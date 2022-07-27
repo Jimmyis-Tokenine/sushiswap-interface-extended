@@ -1,4 +1,5 @@
-import { ChainId, SUSHI_ADDRESS } from '@sushiswap/core-sdk'
+import { SUSHI_ADDRESS } from 'app/config/address'
+import { ChainId } from 'app/config/networks'
 import { parse } from 'qs'
 
 import { Field } from './actions'

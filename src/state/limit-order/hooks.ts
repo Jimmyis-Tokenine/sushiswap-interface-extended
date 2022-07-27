@@ -1,17 +1,16 @@
 import { i18n } from '@lingui/core'
 import { t } from '@lingui/macro'
 import {
-  ChainId,
   Currency,
   CurrencyAmount,
   JSBI,
   Price,
-  SUSHI_ADDRESS,
   Trade,
   TradeType,
-  WNATIVE_ADDRESS,
   ZERO,
 } from '@sushiswap/core-sdk'
+import { SUSHI_ADDRESS, WNATIVE_ADDRESS } from 'app/config/address'
+import { ChainId } from 'app/config/networks'
 import { isAddress, tryParseAmount } from 'app/functions'
 import { useCurrency } from 'app/hooks/Tokens'
 import { useBentoOrWalletBalance } from 'app/hooks/useBentoOrWalletBalance'

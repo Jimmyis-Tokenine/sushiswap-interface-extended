@@ -1,4 +1,5 @@
-import { ChainId } from '@sushiswap/core-sdk'
+import { ChainId as ChainIdType } from '@sushiswap/core-sdk'
+import { ChainId } from 'app/config/networks'
 
 const explorers = {
   etherscan: (link: string, data: string, type: 'transaction' | 'token' | 'address' | 'block') => {
@@ -220,7 +221,7 @@ const chains: ChainObject = {
 }
 
 export function getExplorerLink(
-  chainId: ChainId | undefined,
+  chainId: ChainIdType | undefined,
   data: string,
   type: 'transaction' | 'token' | 'address' | 'block'
 ): string {

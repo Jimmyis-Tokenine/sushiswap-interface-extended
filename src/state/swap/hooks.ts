@@ -1,15 +1,17 @@
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
 import {
-  ChainId,
   Currency,
   CurrencyAmount,
   Percent,
-  SUSHI_ADDRESS,
   Trade as V2Trade,
   TradeType,
-  WNATIVE_ADDRESS,
 } from '@sushiswap/core-sdk'
+import {
+  SUSHI_ADDRESS,
+  WNATIVE_ADDRESS,
+} from 'app/config/address'
+import { ChainId } from 'app/config/networks'
 import { currencyId } from 'app/functions'
 import { tryParseAmount } from 'app/functions/parse'
 import { isAddress } from 'app/functions/validate'

@@ -1,6 +1,10 @@
 import { AddressZero } from '@ethersproject/constants'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
+import Form from 'app/components/Form'
+import FormFieldHelperText from 'app/components/Form/FormFieldHelperText'
+import ToggleButtonGroup from 'app/components/ToggleButton'
+import Typography from 'app/components/Typography'
 import {
   DAI_ADDRESS,
   FRAX_ADDRESS,
@@ -9,11 +13,7 @@ import {
   SUSHI_ADDRESS,
   USDC_ADDRESS,
   USDT_ADDRESS,
-} from '@sushiswap/core-sdk'
-import Form from 'app/components/Form'
-import FormFieldHelperText from 'app/components/Form/FormFieldHelperText'
-import ToggleButtonGroup from 'app/components/ToggleButton'
-import Typography from 'app/components/Typography'
+} from 'app/config/address'
 import { useToken } from 'app/hooks/Tokens'
 import { useActiveWeb3React } from 'app/services/web3'
 import React, { FC } from 'react'
