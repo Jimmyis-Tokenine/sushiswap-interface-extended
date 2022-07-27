@@ -218,6 +218,10 @@ const chains: ChainObject = {
     link: 'https://andromeda-explorer.metis.io/',
     builder: explorers.blockscout,
   },
+  [ChainId.JFIN_TESTNET]: {
+    link: 'https://exp.testnet.jfinchain.com/',
+    builder: explorers.blockscout,
+  },
 }
 
 export function getExplorerLink(
