@@ -302,6 +302,17 @@ export const SUPPORTED_NETWORKS: Record<
     rpcUrls: ['https://andromeda.metis.io/?owner=1088'],
     blockExplorerUrls: ['https://andromeda-explorer.metis.io/'],
   },
+  [ChainId.JFIN_TESTNET]: {
+    chainId: '0xDAE',
+    chainName: 'JFIN Chain (Testnet)',
+    nativeCurrency: {
+      name: 'JFIN Coin',
+      symbol: 'JFIN',
+      decimals: 18,
+    },
+    rpcUrls: ['https://rpc.testnet.jfinchain.com'],
+    blockExplorerUrls: ['https://exp.testnet.jfinchain.com/'],
+  },
 }
 
 const NetworkModal: FC = () => {
